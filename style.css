@@ -1,36 +1,32 @@
 img {
-    width: 200px;
-    border-radius: 100px;
-    
-
-    
-    
+    width: 500px;
+   
     
 }
  
 body{ 
+    background:rgb(230, 219, 219);
     text-align: center;
-    background:rgb(0,0,0);
     
     
 }
 
 #titolo{
-    color:red ;
-    font-family: Fantasy;
+    color:rgb(0, 0, 0);
+    font-family: impact;
     text-align: center;
-    letter-spacing: 5px;
-    
+    letter-spacing: 2px;
+
 }
 
 #prima {
-    color:chocolate;
+    color:rgb(78, 80, 90);
     text-align: left;
-    font-family: Comic Sans MS;
+    font-family: sans-serif;
 }
 
 #seconda{
-    color:yellow;
-    text-align: end;
-    font-family: Comic Sans MS;
+    color:rgb(78,80, 90);
+    text-align: left;
+    font-family: sans-serif;
 }
