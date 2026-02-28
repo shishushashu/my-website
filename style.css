@@ -1,0 +1,35 @@
+img {
+    width: 200px;
+    border-radius: 100px;
+    filter : grayscale(100%);
+    
+    
+    
+}
+ 
+body{ 
+    text-align: center;
+    background:rgb(0,0,0);
+    
+    
+}
+
+#titolo{
+    color:red ;
+    font-family: Fantasy;
+    text-align: center;
+    letter-spacing: 5px;
+    
+}
+
+#prima {
+    color:chocolate;
+    text-align: left;
+    font-family: Comic Sans MS;
+}
+
+#seconda{
+    color:yellow;
+    text-align: end;
+    font-family: Comic Sans MS;
+}
