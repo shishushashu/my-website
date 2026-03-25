@@ -1,6 +1,7 @@
 
  
 body{ 
+   
     background:rgb(230, 219, 219);
     text-align: center;
     
@@ -9,7 +10,7 @@ body{
 
 #titolo{
     color:rgb(0, 0, 0);
-    font-family: impact;
+    font-family: Comic sans MS;
     text-align: center;
     letter-spacing: 4px;
   
@@ -36,9 +37,12 @@ body{
 
 
 #aggiungi {
-    bottom: 100px;
-    align-items: center;
-    cursor:wait;
+
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    border-style: dashed;
+    cursor: wait;
     background-color: rgba(252, 91, 91, 0.884);
    
 
@@ -46,24 +50,36 @@ body{
 }
 
 #togli img{
+  
     width: 30px;
     height: 30px;
 
 }
 
 #togli {
+    width:70px;
+    height: 70px;
+    padding: 20px;
     background-color: rgb(129, 181, 248);
-    
+    border: dashed;
     cursor: wait;
     
 }
-span {
+
+
+#output {
   font-size: 4rem;
   font-family: Comic Sans MS;
   padding: 2px 12px;
   margin-left: 16px;
   margin-right: 16px;
-  color: (0,0, 0);
+  color: (0,0,0)
+}
+
+#assisi{
+    
+    font-size: large;
+    font-family: cursive;
 }
 
 

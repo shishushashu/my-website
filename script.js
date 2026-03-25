@@ -20,11 +20,7 @@ togli.addEventListener("click", function () {
     let contatore = document.querySelector('#output');
     let result = Number(contatore.innerText) - 1;
     if (result < 0) {result = 0;}
-    contatore.innerText = result
-
-
-
-});
+    contatore.innerText = result});
 
 
 
